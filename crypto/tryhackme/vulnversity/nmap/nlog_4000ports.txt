@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Tue Sep 15 08:21:30 2020 as: nmap -p-4000 -oN nlog_4000ports.txt 10.10.2.170
+Nmap scan report for 10.10.2.170
+Host is up (0.092s latency).
+Not shown: 3994 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3128/tcp open  squid-http
+3333/tcp open  dec-notes
+
+# Nmap done at Tue Sep 15 08:22:24 2020 -- 1 IP address (1 host up) scanned in 54.59 seconds

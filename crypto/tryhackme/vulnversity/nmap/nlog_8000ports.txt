@@ -1,0 +1,6 @@
+# Nmap 7.80 scan initiated Tue Sep 15 08:19:49 2020 as: nmap -p 8000-8999 -oN nlog_8000ports.txt 10.10.2.170
+Nmap scan report for 10.10.2.170
+Host is up (0.10s latency).
+All 1000 scanned ports on 10.10.2.170 are closed
+
+# Nmap done at Tue Sep 15 08:19:57 2020 -- 1 IP address (1 host up) scanned in 8.49 seconds

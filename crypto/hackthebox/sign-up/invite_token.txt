@@ -1,0 +1,23 @@
+Va beqre gb trarengr gur vaivgr pbqr, znxr n CBFG erdhrfg gb /ncv/vaivgr/trarengr
+
+Decoded with Rot13:
+
+In order to generate the invite code, make a POST request to /api/invite/generate
+
+Generating
+
+curl -X POST https://www.hackthebox.eu/api/invite/generate
+
+Response:
+{
+    "success":1,
+    "data":{
+        "code":"WVREUEotS0pSUE0tWUhRVFAtWk1VTkQtQ0JSQUs=",
+        "format":"encoded"
+    },
+    "0":200
+}
+
+Decoded with Base64:
+echo WVREUEotS0pSUE0tWUhRVFAtWk1VTkQtQ0JSQUs= | base64 -d
+
